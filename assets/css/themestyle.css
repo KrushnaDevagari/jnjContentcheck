@@ -1,0 +1,974 @@
+body {
+    color: #161616;
+    -ms-overflow-style: scrollbar;
+}
+
+.themestyle {
+    position: relative;
+    min-height: 100vh;
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+.themestyle img {
+    max-width: 100%;
+}
+
+.themestyle, .themestyle h1, .themestyle h2, .themestyle h3, .themestyle h4, .themestyle h5, .themestyle h6, .themestyle p, .themestyle ul, .themestyle ol {
+    font-family: Verdana !important;
+}
+
+.themestyle ul li, .themestyle ol li {
+    margin-bottom: 0px;
+}
+
+.themestyle .study-design-box ul, .themestyle .study-design-box h2, .themestyle .study-design-box p {
+    color: #fff
+}
+
+.themestyle a {
+    color: #00417b;
+}
+
+.themestyle p {
+    line-height: 1.7;
+}
+
+.themestyle .container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.themestyle .word-wrap {
+    white-space: nowrap;
+}
+
+.themestyle h1, .themestyle h2, .themestyle h3, .themestyle h4, .themestyle h5, .themestyle h6 {
+    margin: 0;
+    padding: 0
+}
+
+.themestyle .tab-content {
+    padding-top: 0em;
+    padding-bottom: 2em;
+}
+
+.themestyle .tab-content .tab-content {
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+.themestyle .nav-tabs>li>a {
+    color: #194379;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 10px 15px
+}
+
+.themestyle .affix {
+    top: 0
+}
+
+.themestyle .nav-tabs>li.active>a, .themestyle .nav-tabs>li.active>a:focus, .themestyle .nav-tabs>li.active>a:hover {
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: #00417b
+}
+
+.themestyle .nav-tabs>li.active>a, .themestyle .nav-tabs>li.active>a:focus{
+    color: #00417b;
+    border: 1px solid #056da9;
+    border-right: 1px transparent;
+    background-color: #fff
+}
+
+.themestyle .nav-tabs {
+    border-bottom: 0
+}
+
+.themestyle .nav-tabs>li {
+    margin-bottom: 0
+}
+
+.themestyle .nav-tabs>li>a {
+    border-radius: 0 0
+}
+
+
+.themestyle header {
+    margin-bottom: 10px;
+    background: #00417b;
+    padding: 20px 0;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.themestyle #cssmenu>ul {
+    padding: 0;
+    margin: 0;
+}
+
+.themestyle #cssmenu>ul>li {
+    border-right: 1px solid #fff;
+    float: left;
+    list-style: none;
+}
+
+.themestyle #cssmenu ul li a {
+    border: 0;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    background-color: #00417b;
+}
+
+.themestyle #cssmenu>ul>li>a {
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 22px !important;
+    transition: 0.3s;
+}
+
+.themestyle #cssmenu>ul>li>a:hover {
+    background-color: #5a7ca1;
+    text-decoration: none;
+    display: block;
+}
+
+.themestyle #cssmenu>ul>li.active>a {
+    background-color: #ffffff;
+    color: #00417b;
+}
+
+.themestyle .navbar {
+    margin-bottom: 0;
+    background-color: #00417b;
+    border-radius: 0;
+    width: 100%;
+    z-index: 999
+}
+
+.themestyle .pagination {
+    display: none
+}
+
+.themestyle .btn {
+    border-radius: 0;
+    border-color: #00417b;
+}
+
+.themestyle .download_pdf {
+    background: url(/janssen/themed/spravato/transform-2/assets/img/PDF-download_icon.svg?v=1) no-repeat center center;
+    background-color: #00417b;
+    display: inline-block;
+    color: #fff;
+    position: fixed;
+    right: 0;
+    width: 32px;
+    height: 35px;
+    top: 183px;
+    background-size: 23px;
+    background-position: 6px;
+}
+
+.themestyle .download_pdf:hover {
+    background-color: #5a7ca1;
+}
+
+.themestyle .heading1 {
+    color: #00417b;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.themestyle header .heading1 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.themestyle .heading2 {
+    color: #00417b;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px
+}
+
+.themestyle .blue-bullets {
+    padding-left: 17px;
+    line-height: 1.7;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.themestyle .blue-bullets li {
+    list-style-type: none;
+    position: relative
+}
+
+.themestyle .blue-bullets li:before {
+    content: "";
+    background: #00417b;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 10px;
+    left: -17px;
+    border-radius: 50%;
+}
+
+.themestyle .blue-bullets li li:before {
+    content: "";
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #00417b;
+}
+
+.themestyle .blue-bullets li li li:before {
+    background: #00417b;
+    border-radius: 0;
+    width: 5px;
+    height: 5px;
+    top: 10px;
+}
+
+.themestyle .btn-default {
+    background: #00417b;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+
+.themestyle .btn-default:hover, .themestyle .btn-default:focus {
+    background: #fff;
+    color: #00417b;
+}
+
+.themestyle .tab-pane .nav-tabs>li.active>a, .themestyle .tab-pane .nav-tabs>li.active>a:focus, .themestyle .tab-pane .nav-tabs>li.active>a:hover {
+    background-color: transparent;
+    color: #00417b;
+    border-radius: 0
+}
+
+.themestyle .tab-pane .nav-tabs>li>a {
+    background-color: #00417b;
+    border: 1px solid #00417b !important;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 0;
+    font-size: 15px;
+    padding: 10px 15px
+}
+
+.themestyle .tab-pane .nav-tabs {
+    margin: 0
+}
+
+.themestyle table th {
+    background-color: #fff;
+    color: #00417b
+}
+
+.themestyle .table>thead>tr>th, .themestyle .table>tbody>tr>td {
+    vertical-align: middle;
+}
+
+.themestyle .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #fff;
+}
+
+.themestyle .table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.themestyle .table-bordered, .themestyle .table-bordered>tbody>tr>td, .themestyle .table-bordered>tbody>tr>th, .themestyle .table-bordered>tfoot>tr>td, .themestyle .table-bordered>tfoot>tr>th, .themestyle .table-bordered>thead>tr>td, .themestyle .table-bordered>thead>tr>th {
+    border: 1px solid #00417b;
+}
+
+.themestyle .table-w-s tbody>tr:nth-of-type(even) {
+    background: #fff;
+}
+
+.themestyle .table-w-s tbody tr>td:first-child, .themestyle .table-w-s tbody tr>td:nth-child(3) {
+    min-width: 85px;
+}
+
+.themestyle .modal-header {
+    display: flex;
+    align-items: center;
+}
+
+.themestyle .modal-header .close {
+    margin-left: auto;
+    opacity: .8;
+    font-size: 18px;
+    order: 1;
+    text-shadow: none;
+    outline: none;
+    background: #00417b;
+    color: #fff;
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    line-height: 1;
+    margin-top: 0;
+    border: 1px solid #00417b;
+    transition: all .3s ease;
+}
+
+.themestyle .modal-header .close:hover, .themestyle .modal-header .close:focus {
+    background: #fff;
+    color: #00417b;
+    outline: none;
+}
+
+.themestyle .modal-title {
+    color: #00417b
+}
+
+.themestyle h3.modal-title {
+    font-size: 20px;
+}
+
+.themestyle h3.modal-title strong {
+    font-weight: 500;
+}
+
+.themestyle .overflow-x-auto {
+    overflow-x: auto
+}
+
+.themestyle #content {
+    margin-top: 1.5em
+}
+
+.themestyle .tabs-left {
+    border-bottom: none;
+    padding-top: 2px
+}
+
+.themestyle .tabs-left {
+    border-right: 1px solid #ddd;
+    position: relative;
+    z-index: 9
+}
+
+.themestyle .tabs-left>li {
+    float: none;
+    margin-bottom: 2px
+}
+
+.themestyle .tabs-left>li {
+    margin-right: -1px
+}
+
+.themestyle .tabs-left>li.active>a, .themestyle .tabs-left>li.active>a:hover, .themestyle .tabs-left>li.active>a:focus {
+    border-bottom-color: #ddd;
+    border-right-color: transparent
+}
+
+.themestyle .tabs-left>li>a {
+    border-radius: 15px 0 0 15px;
+    margin-right: 0;
+    display: block;
+    background-color: #194379;
+    color: #fff
+}
+
+.themestyle .step-container {
+    position: relative
+}
+
+.themestyle .document-btn {
+    background: url(/janssen/themed/spravato/transform-2/assets/img/Summary_icon.svg?v=1) no-repeat center center;
+    background-size: 23px;
+    position: fixed;
+    width: 32px;
+    height: 35px;
+    display: inline-block;
+    top: 183px;
+    z-index: 99;
+    cursor: pointer;
+    right: 35px;
+    background-color: #00417b;
+    color: #fff;
+}
+
+.themestyle .document-btn:hover {
+    background-color: #5a7ca1;
+}
+
+.themestyle .border {
+    border: 1px solid
+}
+
+.themestyle .border-primary {
+    border-color: #00417b;
+}
+
+.themestyle .p-20 {
+    padding: 20px !important;
+}
+
+.themestyle .p-10 {
+    padding: 10px !important;
+}
+
+.themestyle .pl-10 {
+    padding-left: 10px !important;
+}
+
+.themestyle .pl-20 {
+    padding-left: 20px !important;
+}
+
+.themestyle .pl-30 {
+    padding-left: 30px !important;
+}
+
+.themestyle .pl-40 {
+    padding-left: 40px !important;
+}
+
+.themestyle .pl-50 {
+    padding-left: 50px !important;
+}
+
+.themestyle .m-0 {
+    margin: 0;
+}
+
+.themestyle .mt-5 {
+    margin-top: 5px !important;
+}
+
+.themestyle .mt-10 {
+    margin-top: 10px !important;
+}
+
+.themestyle .mt-20 {
+    margin-top: 20px !important;
+}
+
+.themestyle .mt-30 {
+    margin-top: 30px !important;
+}
+
+.themestyle .mt-40 {
+    margin-top: 40px !important;
+}
+
+.themestyle .mt-50 {
+    margin-top: 50px !important;
+}
+
+.themestyle .ml-0 {
+    margin-left: 0 !important;
+}
+
+.themestyle .ml-10 {
+    margin-left: 10px !important;
+}
+
+.themestyle .ml-20 {
+    margin-left: 20px !important;
+}
+
+.themestyle .ml-25 {
+    margin-left: 25px !important;
+}
+
+.themestyle .ml-30 {
+    margin-left: 30px !important;
+}
+
+.themestyle .ml-40 {
+    margin-left: 40px !important;
+}
+
+.themestyle .ml-50 {
+    margin-left: 50px !important;
+}
+
+.themestyle .ml-70 {
+    margin-left: 70px;
+}
+
+.themestyle .mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.themestyle .mb-5 {
+    margin-bottom: 5px !important;
+}
+
+.themestyle .mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.themestyle .mb-20 {
+    margin-bottom: 20px !important;
+}
+
+.themestyle .mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.themestyle .mb-40 {
+    margin-bottom: 40px !important;
+}
+
+.themestyle .mb-50 {
+    margin-bottom: 50px !important;
+}
+
+.themestyle .pl-0 {
+    padding-left: 0 !important;
+}
+
+.themestyle .pr-0 {
+    padding-right: 0 !important;
+}
+
+.themestyle .pr-10 {
+    padding-right: 10px !important;
+}
+
+.themestyle .border-top-0 {
+    border-top: none !important;
+}
+
+.themestyle .font-90 {
+    font-size: 90%;
+}
+
+.themestyle .f-100 {
+    font-size: 100% !important;
+}
+
+.themestyle .d-block {
+    display: block !important;
+}
+
+.themestyle .d-none {
+    display: none;
+}
+
+.themestyle .d-flex {
+    display: flex !important;
+}
+
+.themestyle .align-items-top {
+    align-items: flex-start !important;
+}
+
+.themestyle .align-items-center {
+    align-items: center !important;
+}
+
+.themestyle .align-items-bottom {
+    align-items: flex-end !important;
+}
+
+.themestyle .justify-content-left {
+    justify-content: flex-start !important;
+}
+
+.themestyle .justify-content-center {
+    justify-content: center !important;
+}
+
+.themestyle .justify-content-right {
+    justify-content: flex-end !important;
+}
+
+.themestyle .bg-white {
+    background: #ffffff !important;
+}
+
+.themestyle .bg-blue {
+    background: #00417b;
+}
+
+.themestyle .bg-dark-blue {
+    background: #00417b;
+}
+
+.themestyle .bg-gray-blue {
+    background: #5a7ca1;
+}
+
+.themestyle .border-blue {
+    border: 3px solid #00417b;
+}
+
+.themestyle .tooltip-inner {
+    text-align: center;
+    max-width: 300px;
+}
+
+.themestyle .tooltip-comment {
+    border-bottom: 1px dotted #5a7ca1;
+}
+
+.themestyle .table tbody td, .themestyle .table thead th {
+    vertical-align: middle !important;
+}
+
+/* 1/11/2019 fixes for integration */
+
+.themestyle tbody th, .themestyle tbody td, .themestyle tfoot td {
+    font-size: 15px;
+}
+
+.themestyle ul, .themestyle ol {
+    font-size: 15px;
+    margin-left: 0;
+    line-height: 1.42857143;
+}
+
+.themestyle h3 {
+    letter-spacing: 0;
+}
+
+.themestyle .table thead th {
+    font-family: Verdana !important;
+    font-size: 15px;
+}
+
+.themestyle h1, .themestyle h2, .themestyle h3, .themestyle h4, .themestyle h5, .themestyle h6 {
+    line-height: 1.1;
+}
+
+.themestyle .modal-title {
+    line-height: 1.42857143;
+}
+
+.themestyle .navbar, .themestyle .step-wizard li>div:before, .themestyle .step-wizard li>div:after {
+    z-index: 9;
+}
+
+.themestyle .document-btn, .themestyle .download_pdf {
+    position: absolute;
+    z-index: 9;
+}
+
+.themestyle .modal {
+    z-index: 100;
+}
+
+.modal-backdrop.in {
+    z-index: 99 !important;
+}
+
+.themestyle .study-design {
+    width: 1250px;
+    margin: 30px auto 0px;
+}
+
+.themestyle .study-design>.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.themestyle .study-design-box.border-blue h2, .themestyle .study-design-box.border-blue p {
+    color: #00417b;
+}
+
+.themestyle .study-design-box.border-blue {
+    color: #00417b;
+}
+
+@media all and (-ms-high-contrast:none), (-ms-high-contrast:active) {
+    .themestyle header {
+        height: 120px;
+    }
+}
+
+@media screen and (max-width:1249px) {
+    .themestyle #Study-Design .overflow-x-1250 {
+        overflow: auto;
+    }
+    .themestyle .study-design>.row {
+        width: 1190px;
+    }
+    .themestyle .study-design {
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .themestyle #cssmenu {
+        width: 100%;
+    }
+    .themestyle .document-btn {
+        right: 0;
+    }
+    .themestyle .study-design {
+        width: 100%;
+    }
+    .themestyle #abbreviation-references ol.pl-20 {
+        padding-left: 25px !important;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1024px) {
+    .themestyle #cssmenu>ul>li>a {
+        padding: 15px 13px !important
+    }
+    .themestyle .tooltip-inner {
+        white-space: normal !important;
+    }
+    .themestyle #cssmenu {
+        padding: 0;
+    }
+    .themestyle #cssmenu>ul>li>a {
+        padding: 15px 8px !important;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .themestyle .tooltip-inner {
+        white-space: normal !important;
+        max-width: 100%;
+    }
+    .themestyle .d-md-none {
+        display: none !important;
+    }
+    .themestyle .d-md-block {
+        display: block !important;
+    }
+    .themestyle .heading2 {
+        line-height: 1.7;
+    }
+}
+
+@media only screen and (min-width:769px) {
+    .themestyle .md-pull-right {
+        float: right;
+    }
+    .themestyle .tab-pane .nav-tabs>li {
+        margin-bottom: -1px;
+    }
+    .themestyle .navbar-collapse {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .themestyle .tab-pane .nav-tabs {
+        border-bottom: 1px solid #00417b;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    .themestyle .nav-tabs>li {
+        margin-bottom: 1px;
+        text-align: center
+    }
+    .themestyle .nav-tabs>li>a {
+        margin-right: 1px
+    }
+    .themestyle .btn {
+        white-space: normal
+    }
+    .themestyle #content {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .themestyle .download_pdf {
+        bottom: 0px;
+        top: auto;
+        left: 0px;
+    }
+    .themestyle #cssmenu>ul>li {
+        width: 100%;
+        text-align: center
+    }
+    .themestyle .navbar-collapse {
+        z-index: 9999
+    }
+    .themestyle .navbar {
+        z-index: 999;
+    }
+    .themestyle .navbar-toggle .icon-bar {
+        background-color: #fff
+    }
+    .themestyle .navbar-toggle {
+        display: block;
+        position: absolute;
+        top: 35px;
+        right: 0px;
+        background-color: #00417b;
+        margin-right: 5px;
+    }
+    .themestyle .navbar-collapse {
+        position: absolute;
+        top: 110px;
+        padding: 0
+    }
+    .themestyle #cssmenu>ul>li {
+        border: 0
+    }
+    .themestyle .navbar {
+        z-index: 9999999999
+    }
+    .themestyle .study-container {
+        background: #00417b
+    }
+    .themestyle .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .themestyle .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .themestyle .document-btn {
+        left: 47px;
+        bottom: 0;
+        top: auto;
+    }
+    .themestyle header .heading1 {
+        font-size: 20px;
+        line-height: 1.5;
+        padding-right: 45px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .themestyle .navbar-collapse {
+        top: 149px;
+    }
+}
+
+
+/*-- Panzoom css --*/
+
+#jquery-script-menu {
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top: 5px solid #316594;
+    background: #fff;
+    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .16);
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .16);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .16);
+    z-index: 999999;
+    padding: 10px 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+.jquery-script-center {
+    width: 960px;
+    margin: 0 auto
+}
+
+.jquery-script-center ul {
+    width: 212px;
+    float: left;
+    line-height: 45px;
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.jquery-script-center a {
+    text-decoration: none
+}
+
+.jquery-script-ads {
+    width: 728px;
+    height: 90px;
+    float: right
+}
+
+.jquery-script-clear {
+    clear: both;
+    height: 0
+}
+
+#carbonads {
+    display: block;
+    overflow: hidden;
+    max-width: 728px;
+    position: relative;
+    font-size: 22px;
+    box-sizing: content-box
+}
+
+#carbonads>span {
+    display: block
+}
+
+#carbonads a {
+    color: #4078c0;
+    text-decoration: none
+}
+
+#carbonads a:hover {
+    color: #3664A3
+}
+
+.carbon-wrap {
+    display: flex;
+    align-items: center
+}
+
+.carbon-img {
+    display: block;
+    margin: 0;
+    line-height: 1
+}
+
+.carbon-img img {
+    display: block;
+    height: 90px;
+    width: auto
+}
+
+.carbon-text {
+    display: block;
+    padding: 0 1em;
+    line-height: 1.35;
+    text-align: left
+}
+
+.carbon-poweredby {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 6px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 600;
+    font-size: 8px;
+    border-top-left-radius: 4px;
+    line-height: 1;
+    color: #aaa!important
+}
+
+@media only screen and (min-width:320px) and (max-width:759px) {
+    .carbon-text {
+        font-size: 14px
+    }
+}
+
+/*-- Panzoom css --*/
